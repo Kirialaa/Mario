@@ -5,5 +5,5 @@ using namespace std;
 class Map
 {
 public:
-void generate_map();
+bool generate_map(int szerokosc, int wyokosc);
 }
