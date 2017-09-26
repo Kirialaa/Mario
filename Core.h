@@ -5,6 +5,7 @@ using namespace std;
 class Core
 {
 public:
-  float get_lokalizacja(int ID);
-  bool kolizja(int ID);
+  char pole[250][250];
+  float get_lokalizacja(char pole[250][250], int dlugosc);
+  bool kolizja();
 }
